@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GraphicsUtil
+comment0.text=\r\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\r\n\ -\ a\ London\ property\ viewing\ application.\r\n\r\n\ A\ GraphicsUtil\ is\ a\ local\ group\ of\ static\ utility\ methods\ that\ can\ be\ used\r\n\ to\ aid\ in\ various\ graphics-related\ procedures\ and\ functionality,\ that\ do\ not\r\n\ belong\ in\ other\ respective\ classes\ in\ which\ they\ are\ invoked.\r\n\r\n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\r\n\ @version\ 30.03.2022\r\n
+comment1.params=g\ s\ x\ y\ c\ cOutLine
+comment1.target=void\ drawStringOutline(java.awt.Graphics,\ java.lang.String,\ double,\ double,\ java.awt.Color,\ java.awt.Color)
+comment1.text=\r\n\ Draws\ an\ outlined\ text\ onto\ a\ JPanel.\r\n\ Reference\:\ http\://www.java2s.com/example/java-utility-method/draw-outline-index-0.html\r\n\r\n\ @param\ g\ A\ given\ Graphics\ or\ Graphics2D\ object.\r\n\ @param\ s\ The\ string\ to\ be\ displayed.\r\n\ @param\ x\ The\ x-coordinate\ of\ the\ string\ on\ the\ panel.\r\n\ @param\ y\ The\ y-coordinate\ of\ the\ string\ on\ the\ panel.\r\n\ @param\ c\ The\ colour\ of\ the\ text.\r\n\ @param\ cOutLine\ The\ colour\ of\ the\ text\ outline.\r\n
+numComments=2

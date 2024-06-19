@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WelcomeController">
+   <children>
+      <Label text="Welcome to">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="41.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="76.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/target.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label text="Property Hunter">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+         <opaqueInsets>
+            <Insets bottom="10.0" />
+         </opaqueInsets>
+      </HBox>
+      <Label alignment="TOP_CENTER" prefHeight="125.0" prefWidth="361.0" text="Browse through properties available in London with Property Hunter. &#10;&#10;Start by selecting a price range at the top, then click &quot;next&quot; when you are ready." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+</VBox>

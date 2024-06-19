@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PanelType
+comment0.text=\r\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\r\n\ -\ a\ London\ property\ viewing\ application.\r\n\r\n\ The\ PanelType\ class\ is\ an\ enumneration\ associating\ each\ statistic\ with\ its\ \r\n\ String\ representation.\ This\ allows\ us\ to\ easily\ load,\ update,\ switch\ between\ \r\n\ each\ respected\ panel.\r\n\r\n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\r\n\ @version\ 30.03.2022\r\n
+comment1.params=fileName\ string
+comment1.target=PanelType(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ The\ constructor\ of\ enum\ PanelType\r\n\ @param\ fileName\ The\ file\ name\ of\ the\ panel\ type\r\n\ @param\ string\ The\ string\ equivalent\ of\ the\ panel\ type\r\n
+comment2.params=
+comment2.target=java.lang.String\ getFileName()
+comment2.text=\r\n\ @return\ The\ file\ name\ of\ the\ panel\ type\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ @return\ The\ string\ equivalent\ of\ the\ panel\ type\r\n
+numComments=4

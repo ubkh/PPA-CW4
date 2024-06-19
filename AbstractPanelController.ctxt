@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=AbstractPanelController
+comment0.text=\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\n\ -\ a\ London\ property\ viewing\ application.\n\n\ A\ AbstractPanelController\ contains\ control\ logic\ that\ receives\ view\ update\ requests,\n\ and\ manipulates\ the\ model\ in\ order\ to\ display\ a\ flexible\ range\ of\ things,\ due\ to\ the\n\ nature\ of\ it\ being\ abstract.\ The\ class\ manages\ user\ interaction\ between\ elements\ on\ \n\ the\ particular\ Pane.\n\ \n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\n\ @version\ 30.03.2022\n
+comment1.params=
+comment1.target=void\ update()
+comment1.text=\n\ Manipulates\ the\ view\ based\ on\ changes\ made\ to\ the\ model\n
+comment2.params=root
+comment2.target=void\ init(javafx.scene.layout.Pane)
+comment2.text=\n\ Sets\ the\ controller\ object's\ root\ node\ and\ initialises\ GUI\ elements\ within\ the\ view\n\ @param\ root\ The\ root\ node\ of\ the\ controller\ \n
+comment3.params=model
+comment3.target=void\ initModel(Model)
+comment3.text=\n\ Sets\ the\ controller\ object's\ model\ and\ calls\ methods\ pertaining\ to\ the\ model's\ state\n\ @param\ model\ The\ model\ object\n
+comment4.params=
+comment4.target=Model\ getModel()
+comment4.text=\n\ @return\ The\ model\ object\n
+comment5.params=model
+comment5.target=void\ setModel(Model)
+comment5.text=\n\ Sets\ the\ model\ object\n\ @param\ model\ The\ model\ object\n
+comment6.params=
+comment6.target=javafx.scene.layout.Pane\ getRoot()
+comment6.text=\n\ @return\ The\ root\ node\ of\ the\ controller\ object\n
+comment7.params=root
+comment7.target=void\ setRoot(javafx.scene.layout.Pane)
+comment7.text=\n\ Sets\ the\ root\ node\ of\ the\ controller\ object\n\ @param\ root\ The\ root\ node\n
+numComments=8

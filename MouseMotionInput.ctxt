@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MouseMotionInput
+comment0.text=\r\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\r\n\ -\ a\ London\ property\ viewing\ application.\r\n\r\n\ MouseMotionInput\ implements\ the\ MouseMotionListener\ interface\ to\ listen\ in\ for\ the\ movement\ of\ the\ mouse,\r\n\ this\ allows\ for\ coordinates\ inside\ the\ JPanel\ to\ be\ retrieved\ and\ highlight\ the\ correct\ aspects.\ This\ class\r\n\ is\ added\ to\ the\ Map\ class.\r\n\r\n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\r\n\ @version\ 30.03.2022\r\n
+comment1.params=e
+comment1.target=void\ mouseDragged(java.awt.event.MouseEvent)
+comment2.params=e
+comment2.target=void\ mouseMoved(java.awt.event.MouseEvent)
+comment2.text=\r\n\ Sets\ location\ of\ mouse\ inside\ JPanel\r\n\ @param\ e\ MouseEvent\ object\r\n
+comment3.params=
+comment3.target=Point\ getMousePoint()
+comment3.text=\r\n\ Accessor\ method\ for\ mousePoint\r\n\ @return\ mousePoint\ Point\ object\r\n
+comment4.params=point
+comment4.target=void\ setMousePoint(Point)
+comment4.text=\r\n\ Sets\ the\ mouse\ point\ location\r\n\ @param\ point\ Point\ object\ which\ sets\ the\ location\ of\ the\ mouse\ in\ JPanel\r\n
+numComments=5

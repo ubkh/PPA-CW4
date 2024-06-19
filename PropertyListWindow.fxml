@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="547.0" styleClass="secondary-bg" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PropertyListingController">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="564.0" styleClass="primary-bg" BorderPane.alignment="CENTER">
+         <items>
+            <ToggleButton fx:id="favouriteButton" mnemonicParsing="false" prefWidth="100.0" text="Favourite" />
+            <Region maxWidth="1.7976931348623157E308" prefHeight="29.0" prefWidth="222.0" />
+            <Label text="Sort by:" />
+            <ChoiceBox fx:id="sort" prefWidth="150.0" />
+         </items>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </ToolBar>
+   </top>
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="564.0" styleClass="primary-bg" BorderPane.alignment="CENTER">
+         <items>
+            <Label fx:id="count" text="0 properties available" />
+         </items>
+      </ToolBar>
+   </bottom>
+   <center>
+      <TableView fx:id="table" prefHeight="147.0" prefWidth="547.0" styleClass="secondary-bg" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="host" editable="false" prefWidth="141.0" reorderable="false" resizable="false" sortable="false" styleClass="ternary-bg" text="Host name" />
+           <TableColumn fx:id="price" editable="false" prefWidth="134.0" reorderable="false" resizable="false" sortable="false" styleClass="ternary-bg" text="Price (£)" />
+           <TableColumn fx:id="reviewCount" editable="false" prefWidth="136.0" reorderable="false" resizable="false" sortable="false" styleClass="ternary-bg" text="Number of reviews" />
+           <TableColumn fx:id="minNights" editable="false" prefWidth="121.0" reorderable="false" resizable="false" sortable="false" styleClass="ternary-bg" text="Minimum nights" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+</BorderPane>

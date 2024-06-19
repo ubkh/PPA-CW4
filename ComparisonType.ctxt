@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ComparisonType
+comment0.text=\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\n\ -\ a\ London\ property\ viewing\ application.\n\n\ A\ ComparisonType\ is\ an\ enumeration\ of\ different\ statistics\ that\n\ we\ compare\ in\ the\ ComparisonController.\n\n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\n\ @version\ 30.03.2022\n
+comment1.params=string
+comment1.target=ComparisonType(java.lang.String)
+comment1.text=\n\ Constructor\ for\ enum\ ComparisonType\n\ @param\ string\ The\ string\ equivalent\ of\ the\ ComparisonType\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ @return\ The\ string\ equivalent\ of\ the\ ComparisonType\n
+numComments=3

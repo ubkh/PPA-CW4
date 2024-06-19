@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ComparisonController
+comment0.text=\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\n\ -\ a\ London\ property\ viewing\ application.\n\n\ A\ ComparisonController\ contains\ control\ logic\ that\ receives\ view\ update\ requests,\n\ and\ manipulates\ the\ model\ in\ order\ to\ display\ a\ simple\ data\ comparison\ between\ 2\n\ of\ the\ user's\ selected\ favourite\ boroughs.\n\n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\n\ @version\ 30.03.2022\n
+comment1.params=root
+comment1.target=void\ init(javafx.scene.layout.Pane)
+comment1.text=\n\ Initialises\ the\ controller\ on\ first\ construction.\ Called\ once\ only.\n\n\ @param\ root\ The\ root\ node\ of\ the\ controller\n
+comment2.params=model
+comment2.target=void\ initModel(Model)
+comment2.text=\n\ Initialises\ the\ model\ this\ controller\ will\ reference,\ and\ additional\n\ code\ that\ requires\ the\ model\ to\ be\ set\ first.\ Called\ once\ only.\n\n\ @param\ model\ The\ model\ object\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\n\ Clears\ any\ possible\ borough\ ChoiceBox\ selections,\ and\ updates\ them\ in\n\ line\ with\ the\ current\ state\ of\ the\ user's\ favourite\ boroughs.\ This\ method\ is\n\ called\ every\ time\ the\ price\ range\ changes,\ or\ the\ Back/Next\ buttons\ are\n\ clicked.\n
+comment4.params=
+comment4.target=void\ createListings()
+comment4.text=\n\ Create\ a\ listing\ of\ each\ comparison\ type\ in\ the\ table.\n
+comment5.params=
+comment5.target=void\ showInvalidSelectionAlert()
+comment5.text=\n\ Display\ an\ invalid\ borough\ selection\ alert.\n
+comment6.params=event
+comment6.target=void\ handleBorough1Box(javafx.event.ActionEvent)
+comment6.text=\n\ Call\ the\ method\ to\ create\ listings\ when\ the\ selected\ first\ borough\n\ is\ changed.\n\n\ @param\ event\ The\ event\ associated\ with\ the\ ChoiceBox.\n
+comment7.params=event
+comment7.target=void\ handleBorough2Box(javafx.event.ActionEvent)
+comment7.text=\n\ Call\ the\ method\ to\ create\ listings\ when\ the\ selected\ second\ borough\n\ is\ changed.\n\n\ @param\ event\ The\ event\ associated\ with\ the\ ChoiceBox.\n
+numComments=8

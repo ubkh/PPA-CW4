@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=WelcomeController
+comment0.text=\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\n\ -\ a\ London\ property\ viewing\ application.\n\n\ A\ WelcomeController\ contains\ control\ logic\ that\ receives\ view\ update\ requests,\n\ and\ manipulates\ the\ model\ in\ order\ to\ display\ the\ welcome\ page\ information.\n\ Objects\ from\ this\ class\ inherit\ from\ Abstract\ Pane.\n\ \n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\n\ @version\ 30.03.2022\n
+comment1.params=
+comment1.target=void\ update()
+comment2.params=root
+comment2.target=void\ init(javafx.scene.layout.Pane)
+comment3.params=model
+comment3.target=void\ initModel(Model)
+numComments=4

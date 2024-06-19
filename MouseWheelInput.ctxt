@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MouseWheelInput
+comment0.text=\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\n\ -\ a\ London\ property\ viewing\ application.\n\n\ MouseWheelInput\ implements\ the\ MouseWheelListener\ interface\ to\ listen\ in\ for\ the\ mouse\ scroll\ wheel,\ it\ listens\n\ for\ the\ direction\ of\ the\ scroll.\ This\ class\ is\ added\ into\ the\ Map\ class\ as\ a\ listener.\n\n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\n\ @version\ 30.03.2022\n
+comment1.params=e
+comment1.target=void\ mouseWheelMoved(java.awt.event.MouseWheelEvent)
+comment1.text=\n\ Sets\ the\ direction\ of\ the\ mouseWheelRotation\n\ @param\ e\ MouseEven\ object\n
+comment2.params=
+comment2.target=int\ getMouseWheelRotation()
+comment2.text=\n\ Accessor\ method\ for\ mouseWheelRotation\n\ @return\ Returns\ the\ direction\ that\ the\ mousewheel\ is\ moved\ in\n
+comment3.params=
+comment3.target=void\ clearMouseWheelRotation()
+comment3.text=\n\ Clears\ the\ rotation\ of\ the\ mouseWheel\n
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StatisticsChoiceBox
+comment0.text=\r\n\ Class\ ChoiceBoxes\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+comment1.params=string\ interval\ choiceBoxType
+comment1.target=StatisticsChoiceBox(java.lang.String,\ java.lang.Double,\ javafx.scene.control.ChoiceBox)
+comment1.text=\r\n\ The\ constructor\ of\ the\ class\ ChoiceBoxDropDown.\r\n\ @param\ string\ The\ name\ of\ the\ choice\ box\r\n\ @param\ interval\ The\ number\ of\ intervals\ that\ the\ choice\ box\ will\ contain\r\n\ @param\ choiceBoxType\ The\ choicebox\ object\ to\ be\ operated\ on\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ @return\ The\ name\ of\ the\ choice\ box\r\n
+comment3.params=
+comment3.target=java.lang.Double\ getInterval()
+comment3.text=\r\n\ @return\ The\ number\ of\ intervals\ that\ the\ choice\ box\ will\ have\r\n
+comment4.params=
+comment4.target=javafx.scene.control.ChoiceBox\ getChoiceBoxType()
+comment4.text=\r\n\ @return\ The\ choice\ box\ object\r\n
+comment5.params=
+comment5.target=void\ setChoiceBoxChoices()
+comment5.text=\r\n\ Creates\ entries/choices\ within\ the\ choice\ box\r\n
+numComments=6

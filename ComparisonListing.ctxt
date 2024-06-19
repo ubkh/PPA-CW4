@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ComparisonListing
+comment0.text=\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\n\ -\ a\ London\ property\ viewing\ application.\n\n\ A\ ComparisonListing\ represents\ a\ single\ listing\ of\ a\ statistic\ comparison\n\ between\ two\ boroughs.\n\n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\n\ @version\ 30.03.2022\n
+comment1.params=comparisonType\ value1\ value2
+comment1.target=ComparisonListing(ComparisonType,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ a\ ComparisonListing.\n\n\ @param\ comparisonType\ A\ given\ type\ of\ statistic\ to\ compare.\n\ @param\ value1\ A\ given\ value\ of\ this\ data\ for\ the\ first\ borough.\n\ @param\ value2\ A\ given\ value\ of\ this\ data\ for\ the\ second\ borough.\n
+comment2.params=
+comment2.target=java.lang.String\ getStat()
+comment2.text=\n\ Accessor\ method\ returning\ a\ string\ of\ the\ comparison\ statistic.\n\n\ @return\ String\ of\ the\ comparison\ statistic.\n
+comment3.params=
+comment3.target=java.lang.String\ getValue1()
+comment3.text=\n\ Accessor\ method\ returning\ the\ statistic\ value\ for\ the\ first\ borough,\n\ as\ a\ string.\n\n\ @return\ String\ of\ statistic\ value\ for\ the\ first\ borough.\n
+comment4.params=
+comment4.target=java.lang.String\ getValue2()
+comment4.text=\n\ Accessor\ method\ returning\ the\ statistic\ value\ for\ the\ second\ borough,\n\ as\ a\ string.\n\n\ @return\ String\ of\ statistic\ value\ for\ the\ second\ borough.\n
+numComments=5

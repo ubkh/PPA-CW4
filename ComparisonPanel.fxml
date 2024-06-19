@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+
+<BorderPane prefHeight="410.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ComparisonController">
+   <top>
+      <ToolBar prefHeight="48.0" prefWidth="838.0" styleClass="primary-bg" BorderPane.alignment="CENTER">
+         <items>
+            <Label text="Compare">
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </Label>
+            <ChoiceBox fx:id="borough1" prefHeight="26.0" prefWidth="174.0" />
+            <Region prefHeight="37.0" prefWidth="6.0" />
+            <Label prefHeight="17.0" prefWidth="20.0" text="to" />
+            <ChoiceBox fx:id="borough2" layoutX="71.0" layoutY="16.0" prefHeight="26.0" prefWidth="174.0" />
+         </items>
+      </ToolBar>
+   </top>
+   <center>
+      <TableView fx:id="table" prefHeight="362.0" prefWidth="794.0" styleClass="secondary-bg" BorderPane.alignment="CENTER">
+         <columns>
+            <TableColumn resizable="false" reorderable="false" editable="false" minWidth="0.0" prefWidth="204.78709065914154" sortable="false" text="Statistic" />
+            <TableColumn resizable="false" reorderable="false" editable="false" minWidth="0.0" prefWidth="316.02978515625" sortable="false" text="Borough 1" />
+            <TableColumn resizable="false" reorderable="false" editable="false" prefWidth="312.264892578125" sortable="false" text="Borough 2" />
+         </columns>
+      </TableView>
+   </center>
+</BorderPane>

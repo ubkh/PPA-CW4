@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Model
+comment0.text=\n\ This\ file\ is\ part\ of\ "Property\ Hunter"\n\ -\ a\ London\ property\ viewing\ application.\n\n\ The\ Model\ class\ stores\ the\ state\ of\ the\ application\ and\ contains\ methods\ \n\ which\ are\ called\ by\ controller\ objects\ to\ control\ said\ state.\ It\ houses\n\ the\ price\ range\ handler,\ statistics\ handler\ and\ comparison\ handler\ by\n\ providing\ getter\ methods\ for\ other\ objects\ to\ retrieve\ these\ objects.\n\n\ @author\ Ubayd\ Khan\ (k20044237),\ Mohammed\ Chowdhury\ (k21074018),\ Omar\ Ahmad\ (k210524117),\ Muhammad\ Beg\ (k21057641)\n\ @version\ 30.03.2022\n
+comment1.params=
+comment1.target=Model()
+comment2.params=
+comment2.target=java.util.ArrayList\ getListings()
+comment2.text=\n\ @return\ An\ array\ list\ of\ property\ listings\n
+comment3.params=
+comment3.target=PriceRangeHandler\ getPriceRangeHandler()
+comment3.text=\n\ @return\ The\ price\ range\ handler\ object\n
+comment4.params=
+comment4.target=StatisticsHandler\ getStatisticsHandler()
+comment4.text=\n\ @return\ The\ statistics\ handler\ object\n
+comment5.params=
+comment5.target=ComparisonHandler\ getComparisonHandler()
+comment6.params=listings
+comment6.target=java.util.HashMap\ getListingsByBoroughs(java.util.ArrayList)
+comment6.text=\n\ Takes\ in\ an\ array\ list\ of\ property\ listings\ and\ returns\ a\ hashmap\ where\ each\ key\ is\ a\ name\ of\ a\ borough\n\ and\ its\ value\ associated\ with\ it\ is\ an\ array\ list\ of\ property\ listings\ that\ belong\ to\ the\ borough\n\ @param\ listings\ The\ listings\ to\ be\ sorted\ into\ a\ hash\ map\n\ @return\ A\ hash\ map\ of\ listings\ grouped\ by\ borough\n
+numComments=7

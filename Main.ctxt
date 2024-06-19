@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Write\ a\ description\ of\ class\ MainWindowView\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ entry\ point\ of\ the\ application\n
+comment2.params=stage
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\n\ Starts\ the\ application\ and\ creates\ a\ container\ view\ which\ will\ hold\n\ the\ panel\ views\n\ @param\ stage\ The\ stage\ object\ of\ the\ application\n
+numComments=3
